@@ -2,7 +2,7 @@ call pathogen#runtime_append_all_bundles()
 
 ca w!! w !sudo tee "%"
 " change to the directory of the current file: http://vim.wikia.com/wiki/Change_to_the_directory_of_the_current_file
-autocmd BufEnter * if bufname("") !~ "^\[A-Za-z0-9\]*://" | lcd %:p:h | endif
+set autochdir
 " set t_Co=256
 syntax enable
 set tabstop=4       " tabs should be 4 spaces
