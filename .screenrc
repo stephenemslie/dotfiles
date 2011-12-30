@@ -1,2 +1,4 @@
 term screen-256color
 defutf8 on
+# open a new window at current working directory
+bind ^x stuff "screen -X chdir \$PWD;screen^M"
