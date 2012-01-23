@@ -5,6 +5,8 @@ ca w!! w !sudo tee "%"
 set autochdir
 " set t_Co=256
 syntax enable
+set background=dark
+colorscheme solarized
 set tabstop=4       " tabs should be 4 spaces
 set expandtab
 set shiftwidth=4    " shiftwidth should be 4
@@ -18,13 +20,11 @@ set nocindent
 filetype indent on 
 filetype plugin on 
 
-set background=light
 " let g:solarized_termtrans=1
 " let g:solarized_termcolors=256
 " let g:solarized_contrast="normal"
 " let g:solarized_visibility="normal"
-let g:solarized_diffmode="high"
-colorscheme solarized
+" let g:solarized_diffmode="high"
 
 " map nt :NERDTree<CR>
 
