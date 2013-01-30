@@ -20,8 +20,10 @@ set nowrap
 filetype plugin on 
 filetype indent on
 set nocindent
-filetype indent on 
-filetype plugin on 
+set nocompatible   " Disable vi-compatibility
+set laststatus=2   " Always show the statusline
+set encoding=utf-8 " Necessary to show Unicode glyphs
+let g:Powerline_symbols = 'fancy'
 
 " let g:solarized_termtrans=1
 " let g:solarized_termcolors=256
