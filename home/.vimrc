@@ -1,4 +1,5 @@
 call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
 ca w!! w !sudo tee "%"
 " change to the directory of the current file: http://vim.wikia.com/wiki/Change_to_the_directory_of_the_current_file
