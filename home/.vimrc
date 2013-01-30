@@ -4,6 +4,7 @@ ca w!! w !sudo tee "%"
 " change to the directory of the current file: http://vim.wikia.com/wiki/Change_to_the_directory_of_the_current_file
 set autochdir
 " set t_Co=256
+let g:ctrlp_working_path_mode = 'ra'
 syntax enable
 set background=dark
 colorscheme solarized
