@@ -13,10 +13,11 @@ set expandtab
 set shiftwidth=4    " shiftwidth should be 4
 set autoindent      " auto indent
 set ic              " ignore case
-" set cindent         " indent another level in appropriate places (like after :)
 set smarttab
 set is              " incremental search
 set nowrap
+filetype plugin on 
+filetype indent on
 set nocindent
 filetype indent on 
 filetype plugin on 
