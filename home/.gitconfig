@@ -1,0 +1,10 @@
+[core]
+	excludesfile = ~/.gitignore
+    editor=vim
+[user]
+	name = Stephen
+	email = stephenemslie@gmail.com
+[alias]
+    slog = log --graph --pretty=oneline --abbrev-commit --decorate
+    ci = commit -v
+    
