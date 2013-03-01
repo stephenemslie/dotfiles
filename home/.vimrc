@@ -1,7 +1,28 @@
-call pathogen#runtime_append_all_bundles()
-call pathogen#infect()
+ set nocompatible               " be iMproved
+ filetype off                   " required!
 
-ca w!! w !sudo tee "%"
+ set rtp+=~/.vim/bundle/vundle/
+ call vundle#rc()
+
+ " let Vundle manage Vundle
+ " required! 
+ Bundle 'gmarik/vundle'
+
+ " My Bundles here:
+ "
+ " original repos on github
+ Bundle 'kien/ctrlp.vim'
+ Bundle 'tpope/vim-fugitive'
+ Bundle 'tpope/vim-unimpaired'
+ Bundle 'Lokaltog/vim-easymotion'
+ Bundle 'Lokaltog/vim-powerline'
+ Bundle 'sjl/gundo.vim'
+ Bundle 'scrooloose/nerdtree'
+ Bundle 'altercation/vim-colors-solarized'
+ Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+
+ filetype plugin indent on     " required!
+
 " change to the directory of the current file: http://vim.wikia.com/wiki/Change_to_the_directory_of_the_current_file
 set autochdir
 " set t_Co=256
