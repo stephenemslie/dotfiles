@@ -3,9 +3,9 @@ dotfiles
 
 My dotfiles
 
-	$ curl -sL https://raw.github.com/andsens/homeshick/master/install.sh | bash
-	$ printf '\nalias homesick="$HOME/.homeshick"' >> .bashrc
-	$ source ~/.bashrc
-	$ homesick clone https://github.com/stephenemslie/dotfiles.git
+	$ git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+	$ printf '\nalias homeshick="$HOME/.homesick/repos/homeshick/home/.homeshick"' >> $HOME/.bashrc
+	$ source $HOME/.bashrc
+	$ homeshick clone https://github.com/stephenemslie/dotfiles.git
 	$ vim +BundleInstall +qall
 	
