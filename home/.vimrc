@@ -14,13 +14,11 @@
  Bundle 'kien/ctrlp.vim'
  Bundle 'tpope/vim-fugitive'
  Bundle 'tpope/vim-unimpaired'
- Bundle 'Lokaltog/vim-easymotion'
  Bundle 'Lokaltog/vim-powerline'
  Bundle 'sjl/gundo.vim'
  Bundle 'scrooloose/nerdtree'
  Bundle 'altercation/vim-colors-solarized'
- Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-
+ 
  filetype plugin indent on     " required!
 
 " change to the directory of the current file: http://vim.wikia.com/wiki/Change_to_the_directory_of_the_current_file
