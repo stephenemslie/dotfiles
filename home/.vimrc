@@ -11,13 +11,12 @@
  " My Bundles here:
  "
  " original repos on github
- Bundle 'kien/ctrlp.vim'
- Bundle 'tpope/vim-fugitive'
- Bundle 'tpope/vim-unimpaired'
- Bundle 'Lokaltog/vim-powerline'
- Bundle 'sjl/gundo.vim'
- Bundle 'scrooloose/nerdtree'
- Bundle 'altercation/vim-colors-solarized'
+ Plugin 'kien/ctrlp.vim'
+ Plugin 'tpope/vim-fugitive'
+ Plugin 'tpope/vim-unimpaired'
+ Plugin 'sjl/gundo.vim'
+ Plugin 'junegunn/seoul256.vim'
+ Plugin 'terryma/vim-multiple-cursors'
  
  filetype plugin indent on     " required!
 
