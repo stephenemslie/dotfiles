@@ -27,7 +27,8 @@ let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files']
 syntax enable
 set background=dark
-colorscheme solarized
+let g:seoul256_background = 235
+colorscheme seoul256
 set tabstop=4       " tabs should be 4 spaces
 set expandtab
 set shiftwidth=4    " shiftwidth should be 4
